@@ -1,0 +1,29 @@
+# Azure/Bicep
+*.parameters.local.json
+.env
+.env.*
+
+# Terraform (if used)
+.terraform/
+*.tfstate*
+*.tfvars
+.terraform.lock.hcl
+
+# Editor/IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+tmp/
